@@ -1,0 +1,75 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  html {
+    display: block;
+  }
+  
+  body {
+    background: #f3f9ff; 
+    display: block;
+    margin: 0;
+    line-height: 1.5;
+    }
+    
+  
+  #navbar  {
+      position: fixed;
+      min-width: 200px;
+      top: 0px;
+      left: 0px;
+      width: 300px;
+      height: 100%;
+      border-right: solid;
+      color: rgb(14, 135, 222);
+  }
+  
+  nav > ul > li {
+    list-style: none;
+    margin-bottom: 1.2em;
+    font-size: min(1.5vw);
+    font-family: helvetica;
+    
+  }
+  
+  .nav-link{
+    color: rgb(14, 135, 222);
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    
+    color: rgb(7, 30, 243);
+  }
+  
+  
+  
+  #top-header {
+    padding: 0 0 1em 0;
+    text-align: center;
+    font-family: cambria;
+    font-size: 2vw;
+    color: rgb(33, 53, 236);
+    border-bottom: solid;
+    border-color: rgb(14, 135, 222);
+    
+  }
+  
+  
+    
+    #main-doc {
+    display: block;
+    padding: 3em 10em 2em 20em;
+    font-family: georgia;
+    font-size: 1.2em;
+    }
+  
+  
+  .header {
+    font-size: 1.9em;
+    font-weight: 500;
+  }
+  
